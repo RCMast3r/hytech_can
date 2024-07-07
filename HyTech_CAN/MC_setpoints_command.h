@@ -34,10 +34,10 @@ public:
   inline void set_neg_torque_limit(const int16_t nlimit)   { neg_torque_limit = nlimit;}
 
 private:
-    uint16_t control_word = 0;
-    int16_t speed_setpoint = 0; //in rpm
-    int16_t pos_torque_limit = 0; //in 0.1% Mn
-    int16_t neg_torque_limit = 0;
+    uint16_t control_word;
+    int16_t speed_setpoint; //in rpm
+    int16_t pos_torque_limit; //in 0.1% Mn
+    int16_t neg_torque_limit;
 };
 
 #pragma pack(pop)
