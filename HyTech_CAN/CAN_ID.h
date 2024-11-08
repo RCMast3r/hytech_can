@@ -63,6 +63,13 @@
 #define ID_SAB_READINGS_FRONT                                       0x92
 #define ID_SAB_READINGS_REAR                                        0x93
 
+// SAB rev5
+#define ID_VECTORNAV_READINGS                                       0xE3
+#define ID_SAB_CB                                                   0xE4
+#define ID_SAB_THERMISTORS_1                                        0xE5
+#define ID_SAB_THERMISTORS_2                                        0xE6
+#define ID_TCU_STATUS                                               0xE8
+#define ID_RIDE_HEIGHT_DISTANCE     
 
 //TireTempSensors
 #define ID_TPMS_LF                                                  0x424
